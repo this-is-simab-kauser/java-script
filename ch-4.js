@@ -101,6 +101,30 @@
 
  
 //shift():delete from start & run
-let marvelHeroes = ["thor", "spiderman", "ironman"];
-let val = marvelHeroes.shift("");
-console.log("deleted ", val)
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let val = marvelHeroes.shift("");
+// console.log("deleted ", val)
+
+//slice() : returns a piece of the array
+// let marvelHeroes = ["thor", "spiderman", "ironman", "Dr.starnge",];
+// console.log (marvelHeroes);
+// console.log(marvelHeroes.slice());
+
+///splice(): change orignal array(add,  remove,replace)
+//let arr = [1,2,3,4,5,6,7];
+
+// arr.splice(2,2,101,102);\
+
+///add element
+// arr.splice(2,0,101);
+
+//delete element
+// arr.splice (3,1);
+ 
+///replace element
+// arr.splice(3,1,101);
+
+//Q -1 
+// let companies = ["Bloomberg","Microsoft","uber","google", "IBM", "Netflix"];
+// companies.splice(2,1,"Ola");
+// companies.push ("Amazon");

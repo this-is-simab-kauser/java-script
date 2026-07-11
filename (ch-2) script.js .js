@@ -27,7 +27,8 @@
 //et a = 5; //number
 //let b = "5"; //string-> in number 
 
-//console.log("5 === 2", a === b);
+//console.log(5=="5"); one side will be number nd other string (true)
+//console.log("5 === 2", a === b); both side should be number 
 //console.log("a !==b", a !==b ); not equal to
 //console.log("5 <= 5", a <= b ); // greator than- equal to
 //console.log("5 >= 5", a >= b); // smaller than equal to
@@ -75,11 +76,11 @@
    // if else statement-
 //let age = 16;
 
-//if (age>= 18) {
-//    console.log("vote");
-// } else {
+//  if (age>= 18) {
+//     console.log("vote");
+//  } else {
 //    console.log ("not vote");
-// }
+//  } 
 
  //odd or even
  //let num = 7; 
